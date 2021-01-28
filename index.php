@@ -8,6 +8,14 @@
 
   $newStoryLength = strlen($newStory);
 
+  /* ---------------------------------------- */
+
+    $pizza  = "piece1 piece2 piece3 piece4 piece5 piece6";
+    $pieces = explode(" ", $pizza);
+    var_dump($pieces);
+    echo $pieces[0]; // piece1 
+    echo $pieces[1]; // piece2
+
 ?>
 
 
