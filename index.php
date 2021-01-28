@@ -6,6 +6,8 @@
 
   $newStory = str_replace("Lorem", $badword, $story);
 
+  $newStoryLength = strlen($newStory);
+
 ?>
 
 
@@ -20,6 +22,7 @@
 <body>
   
   <p> <?php echo $newStory ?> </p>
+  <p>Lunghezza storia: <?php echo $newStoryLength ?> caratteri</p>
 
 </body>
 </html>
